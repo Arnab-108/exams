@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema({
     gender:{type:String,required:true},
     city:{type:String,required:true},
     age:{type:Number,required:true},
-    is_married:{type:Boolean,required:true}
+    is_married:{type:Boolean}
 },{
     versionKey:false,
 })
